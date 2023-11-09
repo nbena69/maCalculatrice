@@ -1,6 +1,6 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { ComposantRouteurComponent } from './composant-routeur.component';
+import {ComposantRouteurComponent} from './composant-routeur.component';
 
 describe('ComposantRouteurComponent', () => {
   let component: ComposantRouteurComponent;
@@ -10,8 +10,8 @@ describe('ComposantRouteurComponent', () => {
     await TestBed.configureTestingModule({
       imports: [ComposantRouteurComponent]
     })
-    .compileComponents();
-    
+      .compileComponents();
+
     fixture = TestBed.createComponent(ComposantRouteurComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

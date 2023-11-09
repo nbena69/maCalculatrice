@@ -1,5 +1,5 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { ComposantSelecteurComponent } from './composant-selecteur.component';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
+import {ComposantSelecteurComponent} from './composant-selecteur.component';
 
 describe('ComposantSelecteurComponent', () => {
   let component: ComposantSelecteurComponent;
@@ -9,7 +9,7 @@ describe('ComposantSelecteurComponent', () => {
     await TestBed.configureTestingModule({
       imports: [ComposantSelecteurComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(ComposantSelecteurComponent);
     component = fixture.componentInstance;
