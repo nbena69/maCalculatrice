@@ -1,6 +1,8 @@
 import {ComponentFixture, TestBed} from '@angular/core/testing';
 
 import {ComposantRouteurComponent} from './composant-routeur.component';
+import {CalculetteComponent} from './calculette/calculette.component';
+import {Routes} from "@angular/router";
 
 describe('ComposantRouteurComponent', () => {
   let component: ComposantRouteurComponent;
@@ -21,3 +23,9 @@ describe('ComposantRouteurComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+
+
+const routes: Routes = [
+  { path: 'mon_composant', component:ComposantRouteurComponent},
+  { path: 'calculette', component:ComposantRouteurComponent}
+]

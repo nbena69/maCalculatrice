@@ -7,7 +7,10 @@ import { CommonModule } from '@angular/common';
   imports: [CommonModule],
   templateUrl: './composant-routeur.component.html',
   styleUrl: './composant-routeur.component.css'
+
 })
 export class ComposantRouteurComponent {
 
 }
+
+
