@@ -1,11 +1,18 @@
-<p><input name="operande1" type="text"> </p>
-<p><select name="operateur">
-  <option>+</option>
-  <option>-</option>
-  <option>/</option>
-  <option>*</option>
-</select> </p>
-<p><input name="operande2" type="text"> </p>
+<!-- calculette.component.html -->
+<form [formGroup]="calculatrice" (ngSubmit)="calcul()">
+  <p><input formControlName="operande1" type="text"></p>
+  <p>
+    <select formControlName="operateur">
+      <option selected>+</option>
+      <option>-</option>
+      <option>/</option>
+      <option>*</option>
+    </select>
+  </p>
+  <p><input formControlName="operande2" type="text"></p>
 
-<p>Résultat</p>
-<p>{{resultat}}</p>
+  <p>Résultat</p>
+  <p>{{ resultat }}</p>
+
+  <button type="submit">Calculer</button>
+</form>
