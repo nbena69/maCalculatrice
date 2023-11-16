@@ -1,7 +1,75 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #3498db;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+div {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+}
+
+form {
+  display: grid;
+  grid-gap: 15px;
+}
+
+input, select {
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1px solid #3498db;
+  border-radius: 6px;
+  font-size: 18px;
+  background-color: #ecf0f1;
+  color: #333;
+}
+
+select {
+  appearance: none;
+}
+
 .ng-valid[required], .ng-valid.required {
-  border: 5px solid green;
+  border: 2px solid #2ecc71;
 }
 
 .ng-invalid:not(form) {
-  border: 5px solid red;
+  border: 2px solid #e74c3c;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  background-color: #3498db;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+p.result-label {
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 20px;
+  color: #333;
+}
+
+p.result-value {
+  font-size: 24px;
+  color: #27ae60;
 }
