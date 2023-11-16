@@ -18,7 +18,7 @@ export class CalculetteComponent {
     Validators.min(1),
     Validators.required
   ]);
-  public operateur: FormControl = new FormControl('');
+  public operateur: FormControl = new FormControl<string|null>('+', Validators.required);
   public operande2: FormControl = new FormControl<number>(0, [
     Validators.min(1),
     Validators.required
