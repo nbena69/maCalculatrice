@@ -13,6 +13,10 @@
 
     <p>Résultat</p>
     <p>{{resultat}}</p>
-    <app-compteur-de-calcul #compteur></app-compteur-de-calcul>
+    <div *ngIf="flagTropDeCalcul">
+      <b>Trop de calcul effectués!</b>
+    </div>
+
+    <app-compteur-de-calcul #compteur (attentionNombreDeCalculImportant)="tropDeCalcul($event)"></app-compteur-de-calcul>
   </form>
 </div>

@@ -44,7 +44,16 @@ export class CalculetteComponent {
     );
   }
 
+  public flagTropDeCalcul: boolean = false;
+
+  tropDeCalcul($event:boolean) {
+    if ($event) {
+      this.flagTropDeCalcul = true;
+    }
+  }
   @ViewChild('compteur') compteur!: CompteurDeCalculComponent;
+
+
 }
 
 
