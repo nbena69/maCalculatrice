@@ -35,7 +35,7 @@ export class CalculetteComponent {
 
   }
 
-  public compte: number = 0;
+  public total: number = 0;
 
   calcul(): void {
     this.compteur.compte();

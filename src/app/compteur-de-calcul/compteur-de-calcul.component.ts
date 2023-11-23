@@ -9,4 +9,9 @@ import { CommonModule } from '@angular/common';
   styleUrl: './compteur-de-calcul.component.css'
 })
 export class CompteurDeCalculComponent {
+  public total: number=0;
+  compte(): void{
+    this.total++
+
+  }
 }
