@@ -1,27 +1,28 @@
-# MonProjet
+# MaCalculatrice
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.0.
+Ce projet a été généré avec [Angular CLI](https://github.com/angular/angular-cli) version 17.0.0.
 
-## Development server
+## À Propos du Projet
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Le fichier nommé `maCalculatrice` est une application développée en Angular et TypeScript. Il s'agit d'une calculatrice de base permettant d'effectuer des opérations simples telles que l'addition, la soustraction, la multiplication et la division. Ce projet a été développé pendant ma deuxième année de BTS SIO lors de cours sur Angular. Il s'agit de mon premier projet utilisant Angular.
 
-## Code scaffolding
+## Fonctionnalités
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Calculatrice de Base :** Permet d'effectuer des opérations arithmétiques simples (+, -, *, /).
+  
+- **Interface Angular :** Utilise Angular CLI pour la gestion du projet et Angular components pour l'interface utilisateur.
+
+## Utilisation
+
+1. **Serveur de Développement :**
+   ```bash
+   ng serve
+Ouvrez votre navigateur et accédez à http://localhost:4200/. L'application se rechargera automatiquement à chaque modification des fichiers sources.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Pour construire le projet, exécutez la commande suivante :
+   ```bash
+   ng build
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Les fichiers de construction seront stockés dans le répertoire dist/.
