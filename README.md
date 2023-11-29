@@ -22,7 +22,6 @@ Ouvrez votre navigateur et accédez à http://localhost:4200/. L'application se 
 ## Build
 
 Pour construire le projet, exécutez la commande suivante :
-   ```bash
-   ng build
-
-Les fichiers de construction seront stockés dans le répertoire dist/.
+   
+```bash
+ng build
