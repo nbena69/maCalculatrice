@@ -1,42 +1,42 @@
-# MaCalculatrice
+# MyCalculator
 
-Ce projet a été généré avec [Angular CLI](https://github.com/angular/angular-cli) version 17.0.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.0.
 
-## À Propos du Projet
+## About the Project
 
-Le fichier nommé `maCalculatrice` est une application développée en Angular et TypeScript. Il s'agit d'une calculatrice de base permettant d'effectuer des opérations simples telles que l'addition, la soustraction, la multiplication et la division. Ce projet a été développé pendant ma deuxième année de BTS SIO lors de cours sur Angular. Il s'agit de mon premier projet utilisant Angular.
+The named file `MyCalculator` is an application developed in Angular and TypeScript. This is a basic calculator for performing simple operations such as addition, subtraction, multiplication and division. This project was developed during my second year of BTS SIO during courses on Angular. This is my first project using Angular.
 
-## Fonctionnalités
+## Features
 
-- **Calculatrice de Base :** Permet d'effectuer des opérations arithmétiques simples (+, -, *, /).
+- **Basic Calculator :** Allows you to perform simple arithmetic operations (+, -, *, /).
   
-- **Interface Angular :** Utilise Angular CLI pour la gestion du projet et Angular components pour l'interface utilisateur.
+- **Angular Interface :** Uses Angular CLI for project management and Angular components for user interface.
 
-## Utilisation
+## Use
 
-1. **Serveur de Développement :**
+1. **Development Server :**
    ```bash
    ng serve
-Ouvrez votre navigateur et accédez à http://localhost:4200/. L'application se rechargera automatiquement à chaque modification des fichiers sources.
+Open your browser and navigate to http://localhost:4200/. The application will automatically reload each time the source files are modified.
 
 ## Build
 
-1. Pour construire le projet, exécutez la commande suivante :
+1. To build the project, run the following command:
    ```bash
    ng build
 
 ## Contributions
 
-Si vous souhaitez contribuer à ce projet, suivez ces étapes :
+If you would like to contribute to this project, follow these steps:
 
-1. Fork du projet
-2. Créez une branche pour votre fonctionnalité
+1. Project fork
+2. Create a branch for your functionality
    ```bash
-   git checkout -b feature/NouvelleFonctionnalite
-3. Commit de vos modifications
+   git checkout -b feature/NewFunctionality
+3. Commit your changes
    ```bash
-   git commit -am 'Ajout de la nouvelle fonctionnalité'
-4. Push vers la branche
+   git commit -am 'Added new functionality'
+4. Push to branch
    ```bash
-   git push origin feature/NouvelleFonctionnalite
-5. Créez une Pull Request
+   git push origin feature/NewFunctionality
+5. Create a pull request
